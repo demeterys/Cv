@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h2>Contact Me</h2>
+    <ul>
+        <li>
+           <strong>E-mail Adress: </strong><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlKpLxZCfVDDBVCVFjBWRnznPlWVsBSHBkzTDnhWVbvDtTdpKNZrQdnBFpXGGRzSBHgfdV">demetbagci0@gmail.com</a>
+        </li>
+        <li>
+        <strong>Number: </strong> <em>5078199755</em>
+        </li>
+        <li><strong>Adress: </strong> <em>213 St. No: 14 İzmir/TURKEY</em> </li> 
+        <form action="mailto:demetbagci0@gmail.com" method="post" enctype="text/plain"> <!-- form etiketindeki action kısmı, formu gönder butonuna
+        tıklandığında gideceği yeri gösterir. index.html yazıyor olsaydı anasayfa dönecekti.
+        "mailto:..."": yaptığı ise gönder düğmesine basıldığında varsayılan posta istemcisini açar.
+        "post": kullanıcının formdaki girdilerini eposta istemcisine aktaracığını söyler
+        "text/plain": formdaki verilerin düz metin olarak kodlandığını belirtir-->
+            <label><strong>Do you want to send me an email?</strong></label>
+            <input type="checkbox" name="" id=""> <br>
+            <table>
+                <tr>
+                    <td><label><strong>Name:</strong> </label></td>
+                    <td><input type="text" name="yourName" id=""></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Surname:</strong> </label></td>
+                    <td><input type="text" name="yourSurname" id=""></td>
+                </tr>
+                <tr>
+                    <td><label><strong>E-mail: </strong></label></td>
+                    <td><input type="email" name="yourEmail" id=""></td>
+                </tr>
+                <tr>
+                    <td><label><strong>Your Message:</strong></label></td>
+                    <td>
+                        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+                    <!-- textarea sayesinde text alanının kaç satır ve kal sütundan oluşacağı belirlenir-->
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+            
+             <br>
+            
+            
+
+        </form>
+        
+    </ul>
+</body>
+</html>
